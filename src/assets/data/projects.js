@@ -1,38 +1,33 @@
 import { v4 as uuidv4 } from 'uuid';
 import ProjectImg from '../images/projectImg.png';
-import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
-import CoinTrackerImg from '../images/cointracker.jpg';
-import CavinImg from '../images/cavinimg.jpg';
+import DoctorsVerseImg from '../images/doctorsverse.png';
+import FaceRecogImg from '../images/face-recognition.png';
+import NetflixImg from '../images/netflix-clone.png';
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
+    name: 'DoctorsVerse',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
+      `(Group Project) A website that allows user to book any doctor from any hospital in their area,
+      using React.js in frontend, node.js and express in backend, and MySQL as database`,
+    img: DoctorsVerseImg,
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
+    name: 'Face Recognition',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+      `A website that finds human faces in any image provided. Using machine learning from Clarifai API, it is 
+      created using react.js in frontend, node.js in backend and PostgreSQL as database`,
+    img: FaceRecogImg,
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
+    name: 'Netflix Clone',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
-    img: CoinTrackerImg,
-  },
-  {
-    id: uuidv4(),
-    name: "Cavin's Portfolio",
-    desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
-    img: CavinImg,
+      `A netflix clone website, created totally by me, using react.js and Firebase Database and 
+       authenication along with Stripe payment checkout`,
+    img: NetflixImg,
   },
   {
     id: uuidv4(),

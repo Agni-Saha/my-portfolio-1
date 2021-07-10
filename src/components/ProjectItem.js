@@ -6,7 +6,7 @@ import ProjectImg from '../assets/images/projectImg.png';
 const ProjectItemStyles = styled.div`
   .projectItem__img {
     width: 100%;
-    height: 400px;
+    height: 250px;
     border-radius: 12px;
     overflow: hidden;
     display: inline-block;
@@ -20,6 +20,7 @@ const ProjectItemStyles = styled.div`
     background-color: var(--deep-dark);
     padding: 1rem;
     border-radius: 12px;
+    width: 100%;
   }
   .projectItem__title {
     font-size: 2.2rem;
