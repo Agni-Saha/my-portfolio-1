@@ -101,6 +101,9 @@ const HeroStyles = styled.div`
       }
     }
   }
+  .fab {
+    color: #ff8906
+  }
 
   @media only screen and (max-width: 768px) {
     .hero {
@@ -187,12 +190,12 @@ export default function HeroSection() {
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        FB
+                                        <i className="fab fa-facebook-f"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="http://twitter.com" target="_blank" rel="noreferrer">
-                                        TW
+                                        <i className="fab fa-twitter"></i>
                                     </a>
                                 </li>
                                 <li>
@@ -201,7 +204,7 @@ export default function HeroSection() {
                                         target="_blank"
                                         rel="noreferrer"
                                     >
-                                        IG
+                                        <i className="fab fa-instagram"></i>
                                     </a>
                                 </li>
                             </ul>
