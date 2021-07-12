@@ -36,6 +36,11 @@ const FormStyle = styled.form`
     padding: 1rem 4rem;
     border-radius: 8px;
     cursor: pointer;
+    transition: all 0.2s;
+  }
+  button[type='submit']:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px 0 var(--yellow);
   }
 `;
 

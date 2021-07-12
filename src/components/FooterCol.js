@@ -12,7 +12,11 @@ const ColStyle = styled.div`
   }
   a {
     font-size: 1.8rem;
+    transition: all 0.2s;
   }
+  a:hover {
+    color: var(--yellow);
+  } 
 `;
 
 export default function FooterCol({
