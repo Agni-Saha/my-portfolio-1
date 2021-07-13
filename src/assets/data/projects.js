@@ -3,6 +3,7 @@ import ProjectImg from '../images/projectImg.png';
 import DoctorsVerseImg from '../images/doctorsverse.png';
 import FaceRecogImg from '../images/face-recognition.png';
 import NetflixImg from '../images/netflix-clone.png';
+import WeatherApp from "../images/weather-app.png"
 
 const projects = [
   {
@@ -17,7 +18,7 @@ const projects = [
     id: uuidv4(),
     name: 'Face Recognition',
     desc:
-      `A website that finds human faces in any image provided. Using machine learning from Clarifai API, it is 
+      `A website that finds human faces in any image link provided. Using machine learning from Clarifai API, it is 
       created using react.js in frontend, node.js in backend and PostgreSQL as database`,
     img: FaceRecogImg,
   },
@@ -28,6 +29,13 @@ const projects = [
       `A netflix clone website, created totally by me, using react.js and Firebase Database and 
        authenication along with Stripe payment checkout`,
     img: NetflixImg,
+  },
+  {
+    id: uuidv4(),
+    name: 'Weather App',
+    desc:
+      `A simple single-page weather app using React.js`,
+    img: WeatherApp,
   },
   {
     id: uuidv4(),
