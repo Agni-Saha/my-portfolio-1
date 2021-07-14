@@ -4,6 +4,7 @@ import DoctorsVerseImg from '../images/doctorsverse.png';
 import FaceRecogImg from '../images/face-recognition.png';
 import NetflixImg from '../images/netflix-clone.png';
 import WeatherApp from "../images/weather-app.png"
+import TodoList from "../images/TodoList-MERN.png"
 
 const projects = [
   {
@@ -36,6 +37,15 @@ const projects = [
     desc:
       `A simple single-page weather app using React.js`,
     img: WeatherApp,
+  },
+  {
+    id: uuidv4(),
+    name: 'Todo List App',
+    desc:
+      `A To-do List app, implementing CRUD operations using MERN stack, with hosting the frontend
+       React.js and backend node.js & express.js on Heroku, while hosting the Mongo Database on
+       Mongo Cloud Atlas`,
+    img: TodoList,
   },
   {
     id: uuidv4(),
