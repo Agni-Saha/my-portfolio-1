@@ -5,7 +5,7 @@ import FaceRecogImg from '../images/face-recognition.png';
 import NetflixImg from '../images/netflix-clone.png';
 import WeatherApp from "../images/weather-app.png"
 import TodoList from "../images/TodoList-MERN.png"
-import Whatsapp from "../images/whatspp-clone.png"
+import Whatsapp from "../images/whatsapp-clone.png"
 
 const projects = [
   {

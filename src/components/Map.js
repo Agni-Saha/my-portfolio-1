@@ -52,7 +52,7 @@ export default function Map() {
           <PText>Salt Lake, Kolkata, West Bengal, India</PText>
           <a
             className="map__card__link"
-            href="hhttps://www.google.co.in/maps/place/GB-6,+FB+Block,+Sector+III,+Bidhannagar,+Kolkata,+West+Bengal+700106/@22.5785881,88.4071307,19.5z/data=!4m13!1m7!3m6!1s0x3a0275da311b999d:0xabcc036b80f0560!2sGB-6,+FB+Block,+Sector+III,+Bidhannagar,+Kolkata,+West+Bengal+700106!3b1!8m2!3d22.5786694!4d88.4072347!3m4!1s0x3a0275da311b999d:0xabcc036b80f0560!8m2!3d22.5786694!4d88.4072347"
+            href="https://www.google.co.in/maps/place/GB-6,+FB+Block,+Sector+III,+Bidhannagar,+Kolkata,+West+Bengal+700106/@22.5785881,88.4071307,19.5z/data=!4m13!1m7!3m6!1s0x3a0275da311b999d:0xabcc036b80f0560!2sGB-6,+FB+Block,+Sector+III,+Bidhannagar,+Kolkata,+West+Bengal+700106!3b1!8m2!3d22.5786694!4d88.4072347!3m4!1s0x3a0275da311b999d:0xabcc036b80f0560!8m2!3d22.5786694!4d88.4072347"
             target="_blank"
             rel="noreferrer"
           >
