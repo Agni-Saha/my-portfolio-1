@@ -5,6 +5,7 @@ import FaceRecogImg from '../images/face-recognition.png';
 import NetflixImg from '../images/netflix-clone.png';
 import WeatherApp from "../images/weather-app.png"
 import TodoList from "../images/TodoList-MERN.png"
+import Whatsapp from "../images/whatspp-clone.png"
 
 const projects = [
   {
@@ -46,6 +47,15 @@ const projects = [
        React.js and backend node.js & express.js on Heroku, while hosting the Mongo Database on
        Mongo Cloud Atlas`,
     img: TodoList,
+  },
+  {
+    id: uuidv4(),
+    name: 'Whatsapp Clone',
+    desc:
+      `A One-to-One chatting website similar to Whatsapp using Next.js, allowing both server-side
+       rendering and static rendering. Used Firebase for Google Authentication and database, and
+       receiving exact last seen time. Deployed on Heroku`,
+    img: Whatsapp,
   },
   {
     id: uuidv4(),
