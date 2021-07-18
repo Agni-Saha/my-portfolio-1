@@ -58,45 +58,46 @@ const ProjectSectionStyle = styled.div`
 `;
 
 export default function ProjectsSection() {
-  // console.log(projects);
-  return (
-    <ProjectSectionStyle>
-      <div className="container">
-        <SectionTitle subheading="Some of my Recent Works" heading="Projects" />
-        <div className="projects__allItems">
-          <Swiper
-            spaceBetween={30}
-            slidesPerView={1}
-            navigation
-            breakpoints={{
-              // when window width is >= 640px
-              640: {
-                slidesPerView: 1,
-              },
-              // when window width is >= 768px
-              768: {
-                slidesPerView: 2,
-              },
-              // when window width is >= 1200px
-              1200: {
-                slidesPerView: 3,
-              },
-            }}
-          >
-            {projects.map((project) => {
-              return (
-                <SwiperSlide key={project.id}>
-                  <ProjectItem
-                    title={project.name}
-                    img={project.img}
-                    desc={project.desc}
-                  />
-                </SwiperSlide>
-              );
-            })}
-          </Swiper>
-        </div>
-      </div>
-    </ProjectSectionStyle>
-  );
+    // console.log(projects);
+    return (
+        <ProjectSectionStyle>
+            <div className="container">
+                <SectionTitle subheading="Some of my Recent Works" heading="Projects" />
+                <div className="projects__allItems">
+                    <Swiper
+                        spaceBetween={30}
+                        slidesPerView={1}
+                        navigation
+                        breakpoints={{
+                            // when window width is >= 640px
+                            640: {
+                                slidesPerView: 1,
+                            },
+                            // when window width is >= 768px
+                            768: {
+                                slidesPerView: 2,
+                            },
+                            // when window width is >= 1200px
+                            1200: {
+                                slidesPerView: 3,
+                            },
+                        }}
+                    >
+                        {projects.map((project) => {
+                            return (
+                                <SwiperSlide key={project.id}>
+                                    <ProjectItem
+                                        link={project.link}
+                                        title={project.name}
+                                        img={project.img}
+                                        desc={project.desc}
+                                    />
+                                </SwiperSlide>
+                            );
+                        })}
+                    </Swiper>
+                </div>
+            </div>
+        </ProjectSectionStyle>
+    );
 }

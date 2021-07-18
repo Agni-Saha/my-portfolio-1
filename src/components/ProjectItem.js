@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import ProjectImg from '../assets/images/projectImg.png';
 
@@ -38,21 +37,22 @@ const ProjectItemStyles = styled.div`
 `;
 
 export default function ProjectItem({
-  img = ProjectImg,
-  title = 'Project Name',
-  desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    img = ProjectImg,
+    title = 'Project Name',
+    desc = 'Lorem Ipsum',
+    link = 'http://example.com'
 }) {
-  return (
-    <ProjectItemStyles>
-      <Link to="/projects" className="projectItem__img">
-        <img src={img} alt="project img" />
-      </Link>
-      <div className="projectItem__info">
-        <Link to="#">
-          <h3 className="projectItem__title">{title}</h3>
-        </Link>
-        <p className="projectItem__desc">{desc}</p>
-      </div>
-    </ProjectItemStyles>
-  );
+    return (
+        <ProjectItemStyles>
+            <a target="_blank" rel="noreferrer" href={link} className="projectItem__img">
+                <img src={img} alt="project img" />
+            </a>
+            <div className="projectItem__info">
+                <a href={link} target="_blank" rel="noreferrer">
+                    <h3 className="projectItem__title">{title}</h3>
+                </a>
+                <p className="projectItem__desc">{desc}</p>
+            </div>
+        </ProjectItemStyles>
+    );
 }
