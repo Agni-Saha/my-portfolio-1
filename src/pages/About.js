@@ -162,11 +162,11 @@ export default function About() {
                                 items={['Photoshop', 'Adobe XD']}
                             />
                         </div>
-                        <div className="about__info__item">
+                        {/* <div className="about__info__item">
                             <h1 className="about__info__heading">Experiences</h1>
 
                             <AboutInfoItem title="2020-2021" items={['null']} />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </AboutPageStyles>
