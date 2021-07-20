@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import ProjectImg from '../assets/images/projectImg.png';
 
 const ProjectItemStyles = styled.div`
   .projectItem__img {
@@ -36,12 +35,7 @@ const ProjectItemStyles = styled.div`
   }
 `;
 
-export default function ProjectItem({
-    img = ProjectImg,
-    title = 'Project Name',
-    desc = 'Lorem Ipsum',
-    link = 'http://example.com'
-}) {
+export default function ProjectItem({img, link, title, desc}) {
     return (
         <ProjectItemStyles>
             <a target="_blank" rel="noreferrer" href={link} className="projectItem__img">

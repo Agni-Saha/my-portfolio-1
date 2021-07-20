@@ -84,6 +84,7 @@ export default function Projects() {
           <div className="projects__allItems">
             {projectsData.map((item) => (
               <ProjectItem
+                link={item.link}
                 key={item.id}
                 title={item.name}
                 desc={item.desc}
